@@ -31,8 +31,8 @@ If you encounter any issues or have questions, please check the [Issues](https:/
 
 ## Credits
 
-- **Developers**: [Your Name](https://github.com/defragedgaming)
-- **Special Thanks**: [Contributors](https://github.com/defragedgaming/SkyRealmSurvival/graphs/contributors)
+- **Developers**: [DeFragedGaming](https://github.com/defragedgaming)
+- **Special Thanks**: [](https://github.com/defragedgaming/SkyRealmSurvival/graphs/contributors)
 
 ## License
 
