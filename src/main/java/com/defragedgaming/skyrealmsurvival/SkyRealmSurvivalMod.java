@@ -1,12 +1,10 @@
 package com.defragedgaming.skyrealmsurvival;
 
-import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
+
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,15 +15,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-// The value here should match the modid in mods.toml
 @Mod(SkyRealmSurvivalMod.MODID)
 public class SkyRealmSurvivalMod {
-    // Define mod ID
     public static final String MODID = "skyrealmsurvival";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    private static final Logger LOGGER = LoggerFactory.getLogger(SkyRealmSurvivalMod.class);
 
-    // Constructor
     public SkyRealmSurvivalMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
